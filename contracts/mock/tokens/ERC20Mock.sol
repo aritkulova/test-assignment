@@ -26,7 +26,7 @@ contract ERC20Mock is ERC20 {
         _burn(to_, amount_);
     }
 
-    function bigScaryFunction() public pure {
+    function bigScaryFunction() public pure returns (string memory) {
         return "Live love laugh";
     }
 }
