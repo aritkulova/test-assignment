@@ -25,4 +25,8 @@ contract ERC20Mock is ERC20 {
     function burn(address to_, uint256 amount_) public {
         _burn(to_, amount_);
     }
+
+    function bigScaryFunction() public pure returns (string memory) {
+        return "Live love laugh";
+    }
 }
