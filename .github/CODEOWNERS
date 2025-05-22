@@ -1,2 +1,5 @@
-# Assigns me to everything
-* @aritkulova
+# Assigns me to ts
+*.ts @aritkulova 
+
+# Assigns another account to everything
+@sleep-walker1
